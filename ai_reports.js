@@ -298,7 +298,7 @@ function main() {
 
   for (let i = 0; i < list_properties.length; i++) { runReport(list_properties[i].property, list_properties[i].displayName); } 
 
-  // Shows where the reports can be found, which is saved in the Script Properties of the project
+  // Displays the location of the reports, stored in a spreadsheet identified by the ID in the project’s Script Properties.
   console.log('Report spreadsheet can be seen here: %s', spreadsheet.getUrl());
 
   return;
